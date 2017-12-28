@@ -12,7 +12,7 @@ import 'rxjs/add/operator/map';
 */
 @Injectable()
 export class UsersProvider {
-  private API_URL = 'https://reqres.in/api/'
+  private API_URL = 'https://reqres.in/api/login'
 
   constructor(public http: Http) {}
     

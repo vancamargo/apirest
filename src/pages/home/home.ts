@@ -19,7 +19,7 @@ export class HomePage {
     this.navCtrl.push('LoginPage');
   }
  
-  openListUsers() {
+  openListUser() {
     this.navCtrl.push('UsersListPage');
   }
 }
